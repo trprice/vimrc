@@ -12,5 +12,16 @@ set colorcolumn=80
 
 source $VIMRUNTIME/vimrc_example.vim
 
+"Load the different colorschemes that we've got available.
+set runtimepath=~/development/vimrc/,$VIMRUNTIME
+
+
 "Update this directory to whereever your vim functions are kept.
-source ~/development/vimrc/split_diff_registers.vim
+source ~/development/vimrc/SourceScriptsInDir.vim
+
+call SourceScriptsInDir ("~/development/vimrc/functions")
+
+
+"Set the colorscheme
+"colorscheme midnight
+colorscheme peaksea
