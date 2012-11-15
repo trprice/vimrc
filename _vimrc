@@ -7,7 +7,7 @@ let $BASE_DIR='H:\development\github\vimrc'
 source $BASE_DIR\autoload\pathogen.vim
 
 "Start up pathogen
-call pathogen#infect('$BASE_DIR\functions')
+call pathogen#infect('$BASE_DIR\')
 
 set expandtab
 set shiftwidth=4
