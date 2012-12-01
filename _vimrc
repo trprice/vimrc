@@ -1,7 +1,7 @@
 source $VIM\_vimrc
 
 "Set a base directory.
-let $BASE_DIR='H:\development\github\vimrc'
+let $BASE_DIR='C:\development\vimrc'
 
 "Source pathogen since it's not in the normal autoload directory
 source $BASE_DIR\autoload\pathogen.vim
