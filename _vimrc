@@ -34,3 +34,4 @@ behave mswin
 
 "Set the colorscheme
 colorscheme peaksea
+"colorscheme adaryn
