@@ -4,7 +4,6 @@ vimrc
 These are the vim files that I'm presently using.
 <br>
 <br>
----
 
 Top Level Directory:
 --------------------
@@ -12,7 +11,6 @@ Top Level Directory:
 * .vimrc - Linux vimrc.
 <br>
 <br>
----
 
 Autoload Directory:
 -------------------
@@ -20,7 +18,6 @@ Autoload Directory:
     The excellent runtime path management toolkit by Tim Pope. [\(Github\)](https://github.com/tpope/vim-pathogen)
 <br>
 <br>
----
 
 functions\\plugin Directory:
 ----------------------------
@@ -33,7 +30,6 @@ functions\\plugin Directory:
     Binds ,p to opening a browser to render the markdown file being worked on. This comes from [Nate Silva's Blog.](http://blog.natesilva.com/post/5256838248/how-to-preview-a-markdown-document-in-vim)
 <br>
 <br>
----
 
 functions\\colors Directory:
 ----------------------------
