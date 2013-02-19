@@ -35,3 +35,19 @@ behave mswin
 "Set the colorscheme
 colorscheme peaksea
 "colorscheme adaryn
+
+"Move up and down one row on the screen instead of one line.
+:nmap j gj
+:nmap k gk
+
+"Incremental search
+:set incsearch
+
+"Ignore case when searching except when searching for an uppercase item.
+:set ignorecase
+:set smartcase
+
+"Highlight the search. Use '\q' as a way to get rid of the highlight
+" without destroying the search terms. (i.e. n or N will still work)
+:set hlsearch
+:nmap \q :nohlsearch<CR>
