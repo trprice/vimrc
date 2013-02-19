@@ -14,16 +14,28 @@ set tabstop=4
 set cindent
 set number
 
+
+"Set the colorscheme
+colorscheme peaksea
+"colorscheme adaryn
+
 "Highlight anything red that is past column 80.
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
 
 
-"Tags related items
-set tags=~/tags;~
+"Move up and down one row on the screen instead of one line.
+:nmap j gj
+:nmap k gk
 
-map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
+"Incremental search
+:set incsearch
 
+"Ignore case when searching except when searching for an uppercase item.
+:set ignorecase
+:set smartcase
 
-"Set the colorscheme
-colorscheme peaksea
+"Highlight the search. Use '\q' as a way to get rid of the highlight
+" without destroying the search terms. (i.e. n or N will still work)
+:set hlsearch
+:nmap \q :nohlsearch<CR>
