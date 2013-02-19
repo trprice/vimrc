@@ -31,6 +31,16 @@ functions\\plugin Directory:
 <br>
 <br>
 
+functions\\plugin\\systastic Directory:
+----------------------------
+This is the syntastic syntax checking plugin located at the following links.
+<br>
+*   [html](https://github.com/scrooloose/syntastic)
+
+*   [git](https://github.com/scrooloose/syntastic.git)
+<br>
+<br>
+
 functions\\colors Directory:
 ----------------------------
 
