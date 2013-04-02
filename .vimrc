@@ -1,5 +1,5 @@
 "Set a base directory.
-let $BASE_DIR='~/vimrc'
+let $BASE_DIR='~/development/vimrc'
 
 "Source pathogen since it's not in the normal autoload directory
 source $BASE_DIR/autoload/pathogen.vim
@@ -39,3 +39,9 @@ match OverLength /\%81v.\+/
 " without destroying the search terms. (i.e. n or N will still work)
 :set hlsearch
 :nmap \q :nohlsearch<CR>
+
+"Syntastic settings
+let g:syntastic_c_compiler = $CC
+let g:syntastic_cpp_compiler = $CXX
+let g:syntastic_cpp_check_header = 1
+let g:syntastic_cpp_no_default_include_dirs = 1
