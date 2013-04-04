@@ -1,13 +1,10 @@
 source $VIM\_vimrc
 
-"Set a base directory.
-let $BASE_DIR='H:\development\github\vimrc'
-
 "Source pathogen since it's not in the normal autoload directory
-source $BASE_DIR\autoload\pathogen.vim
+source H:\development\github\vimrc\pathogen\autoload\pathogen.vim
 
 "Start up pathogen
-call pathogen#infect('$BASE_DIR\')
+call pathogen#infect('H:\development\github\vimrc\functions/{}')
 
 set expandtab
 set shiftwidth=4
