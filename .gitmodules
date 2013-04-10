@@ -1,3 +1,6 @@
 [submodule "functions/syntastic"]
 	path = functions/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "functions/peaksea"]
+	path = functions/peaksea
+	url = https://github.com/vim-scripts/peaksea.git
