@@ -40,8 +40,17 @@ match OverLength /\%81v.\+/
 :set hlsearch
 :nmap \q :nohlsearch<CR>
 
+
 "Syntastic settings
 let g:syntastic_c_compiler = $CC
 let g:syntastic_cpp_compiler = $CXX
 let g:syntastic_cpp_check_header = 1
 let g:syntastic_cpp_no_default_include_dirs = 1
+
+
+"NERDTree Settings
+"Start NERDTree if no files were specified
+autocmd vimenter * if !argc() | NERDTree | endif
+
+"Ctrl+n opens NERDTree
+map <C-n> :NERDTreeToggle<CR>

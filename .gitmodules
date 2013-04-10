@@ -4,3 +4,6 @@
 [submodule "functions/peaksea"]
 	path = functions/peaksea
 	url = https://github.com/vim-scripts/peaksea.git
+[submodule "functions/nerdtree"]
+	path = functions/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
