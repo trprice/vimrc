@@ -1,8 +1,8 @@
 "Set a base directory.
-let $BASE_DIR='~/development/vimrc'
+let $BASE_DIR='~/development/vimrc/functions'
 
 "Source pathogen since it's not in the normal autoload directory
-source $BASE_DIR/autoload/pathogen.vim
+source $BASE_DIR/../autoload/pathogen.vim
 
 "Start up pathogen
 call pathogen#infect($BASE_DIR)
