@@ -51,3 +51,9 @@ autocmd vimenter * if !argc() | NERDTree | endif
 
 "Ctrl+n opens NERDTree
 map <C-n> :NERDTreeToggle<CR>
+
+
+"Source a project specific .vim.custom for custom settings.
+if filereadable (".vim.custom")
+    source .vim.custom
+endif
