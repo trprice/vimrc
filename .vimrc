@@ -7,6 +7,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 "github repos
+Bundle 'trprice/vimrc', {'rtp': 'bundle/my_functions'}
 Bundle 'scrooloose/syntastic'
 Bundle 'vim-scripts/peaksea'
 Bundle 'scrooloose/nerdtree'
@@ -14,10 +15,6 @@ Bundle 'endel/vim-github-colorscheme'
 
 "vim-scripts repos
 Bundle 'visual_studio.vim'
-
-"My Functions
-Bundle 'file:///home/tprice/development/vimrc/bundle/my_functions/markdown.vim'
-Bundle 'file:///home/tprice/development/vimrc/bundle/my_functions/split_diff_registers.vim'
 
 filetype plugin indent on
 
