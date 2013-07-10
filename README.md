@@ -23,14 +23,19 @@ Top Level Directory:
 <br>
 <br>
 
-Autoload Directory:
--------------------
-*   pathogen.vim
-    The excellent runtime path management toolkit by Tim Pope. [\(Github\)](https://github.com/tpope/vim-pathogen)
+functions\\bundle Directory:
+----------------------------
+
+*   my\_functions directory:
+    Contains the .vim files that I've added that I haven't found git repositories for.
+
+*   vundle
+    A submodule for gmarik/vundle. Vundle will handle installing all of the plugins listed in the vimrc files.
 <br>
 <br>
 
-functions\\plugin Directory:
+
+functions\\plugin\\my\_functions Directory:
 ----------------------------
 
 *   split\_diff\_registers.vim
@@ -39,23 +44,3 @@ functions\\plugin Directory:
 
 *   markdown.vim
     Binds ,p to opening a browser to render the markdown file being worked on. This comes from [Nate Silva's Blog.](http://blog.natesilva.com/post/5256838248/how-to-preview-a-markdown-document-in-vim)
-<br>
-<br>
-
-functions\\plugin\\systastic Directory:
-----------------------------
-This is the syntastic syntax checking plugin located at the following links.
-<br>
-*   [html](https://github.com/scrooloose/syntastic)
-
-*   [git](https://github.com/scrooloose/syntastic.git)
-<br>
-<br>
-
-functions\\colors Directory:
-----------------------------
-
-Both of the following were pulled from the C section of the [vimcolorschemetest repository.](http://vimcolorschemetest.googlecode.com/svn/html/index-c.html)
-
-* adaryn.vim
-* peaksea.vim
