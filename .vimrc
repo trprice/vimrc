@@ -15,6 +15,7 @@ Bundle 'endel/vim-github-colorscheme'
 
 "vim-scripts repos
 Bundle 'visual_studio.vim'
+Bundle 'go.vim'
 
 filetype plugin indent on
 
@@ -71,3 +72,8 @@ map <C-n> :NERDTreeToggle<CR>
 if filereadable (".vim.custom")
     source .vim.custom
 endif
+
+
+"Syntax highlighting
+" Associate *.go with Go files
+au BufRead,BufNewFile *.go setfiletype go

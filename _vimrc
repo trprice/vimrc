@@ -1,10 +1,25 @@
 source $VIM\_vimrc
 
-"Source pathogen since it's not in the normal autoload directory
-source H:\development\github\vimrc\pathogen\autoload\pathogen.vim
+"Set up vundle
+filetype off
+set rtp+=~/development/vimrc/bundle/vundle/
+call vundle#rc()
 
-"Start up pathogen
-call pathogen#infect('H:\development\github\vimrc\functions/{}')
+"Let vundle manage itself
+Bundle 'gmarik/vundle'
+
+"github repos
+Bundle 'trprice/vimrc', {'rtp': 'bundle/my_functions'}
+Bundle 'scrooloose/syntastic'
+Bundle 'vim-scripts/peaksea'
+Bundle 'scrooloose/nerdtree'
+Bundle 'endel/vim-github-colorscheme'
+
+"vim-scripts repos
+Bundle 'visual_studio.vim'
+Bundle 'go.vim'
+
+filetype plugin indent on
 
 set expandtab
 set shiftwidth=4
