@@ -1,8 +1,8 @@
-source $VIM\_vimrc
+source $VIM/_vimrc
 
 "Set up vundle
 filetype off
-set rtp+=~/development/vimrc/bundle/vundle/
+set rtp+=c:/development/vimrc/bundle/vundle/
 call vundle#rc()
 
 "Let vundle manage itself
