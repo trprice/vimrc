@@ -63,3 +63,6 @@ colorscheme peaksea
 " without destroying the search terms. (i.e. n or N will still work)
 :set hlsearch
 :nmap \q :nohlsearch<CR>
+
+"Set the control character for NERDTree
+:nmap <C-n> :NERDTreeToggle<CR>
