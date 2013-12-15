@@ -66,3 +66,12 @@ colorscheme peaksea
 
 "Set the control character for NERDTree
 :nmap <C-n> :NERDTreeToggle<CR>
+
+
+"Load a .vim.custom from the directory in which a file we're editing is in,
+"if it exists.
+let b:thisdir=expand("%:p:h")
+let b:vim_custom=b:thisdir."/.vim.custom"
+if (filereadable(b:vim_custom))
+    execute "source ".b:vim_custom
+endif
