@@ -1,35 +1,42 @@
 "Set up vundle
 filetype off
-set rtp+=~/development/vimrc/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 "Let vundle manage itself
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/Vundle.vim'
 
 "github repos
-Bundle 'trprice/vimrc', {'rtp': 'bundle/my_functions'}
-Bundle 'scrooloose/syntastic'
-Bundle 'vim-scripts/peaksea'
-Bundle 'scrooloose/nerdtree'
-Bundle 'endel/vim-github-colorscheme'
+Plugin 'trprice/vimrc', {'rtp': 'bundle/my_functions'}
+Plugin 'scrooloose/syntastic'
+Plugin 'vim-scripts/peaksea'
+Plugin 'nanotech/jellybeans.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'endel/vim-github-colorscheme'
 
 "vim-scripts repos
-Bundle 'visual_studio.vim'
-Bundle 'go.vim'
+Plugin 'visual_studio.vim'
+Plugin 'go.vim'
 
+call vundle#end()
 filetype plugin indent on
 
 set expandtab
-set shiftwidth=4
-set softtabstop=4
-set tabstop=4
+set shiftwidth=8
+set softtabstop=8
+set tabstop=8
 set cindent
 set number
 
 
 "Set the colorscheme
-colorscheme peaksea
+colorscheme jellybeans
+"colorscheme peaksea
 "colorscheme adaryn
+
+" Turn on syntax highlighting
+syn on
+
 
 "Highlight anything red that is past column 80.
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
@@ -66,6 +73,9 @@ autocmd vimenter * if !argc() | NERDTree | endif
 
 "Ctrl+n opens NERDTree
 map <C-n> :NERDTreeToggle<CR>
+
+"Don't use arrows in NERDTree
+let g:NERDTreeDirArrows=0
 
 
 "Source a project specific .vim.custom for custom settings.

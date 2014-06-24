@@ -4,15 +4,7 @@ vimrc
 These are the vim files that I'm presently using.
 <br>
 <br>
-Some of the items below (only syntastic at the moment) are submodules. To clone and update these, run the following:
-
-    git clone --recurse https://github.com/trprice/vimrc.git
-
-For older versions of git, run the following:
-
-    git clone https://github.com/trprice/vimrc.git
-    cd vimrc
-    git submodule update --init
+My .vimrc uses Vundle to handle installing other plugins. Go https://github.com/gmarik/Vundle.vim and follow the instructionsto install the latest version of Vundle.
 <br>
 <br>
 
