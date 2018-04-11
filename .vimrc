@@ -10,12 +10,12 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'trprice/vimrc', {'rtp': 'bundle/my_functions'}
 Plugin 'scrooloose/syntastic'
 Plugin 'vim-scripts/peaksea'
-Plugin 'nanotech/jellybeans.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'endel/vim-github-colorscheme'
+Plugin 'rafi/awesome-vim-colorschemes'
 
 "vim-scripts repos
-Plugin 'visual_studio.vim'
+"Plugin 'visual_studio.vim'
 Plugin 'go.vim'
 
 call vundle#end()
@@ -28,15 +28,11 @@ set tabstop=8
 set cindent
 set number
 
-
-"Set the colorscheme
-colorscheme jellybeans
-"colorscheme peaksea
-"colorscheme adaryn
-
 " Turn on syntax highlighting
 syn on
 
+"Set the colorscheme
+colorscheme iceberg
 
 "Highlight anything red that is past column 80.
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929

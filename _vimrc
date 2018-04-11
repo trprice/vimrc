@@ -14,6 +14,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'vim-scripts/peaksea'
 Bundle 'scrooloose/nerdtree'
 Bundle 'endel/vim-github-colorscheme'
+Plugin 'rafi/awesome-vim-colorschemes'
 
 "vim-scripts repos
 Bundle 'visual_studio.vim'
@@ -45,8 +46,7 @@ behave mswin
 
 
 "Set the colorscheme
-colorscheme peaksea
-"colorscheme adaryn
+colorscheme atom
 
 "Move up and down one row on the screen instead of one line.
 :nmap j gj
