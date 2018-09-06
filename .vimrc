@@ -18,6 +18,9 @@ Plugin 'rafi/awesome-vim-colorschemes'
 "Plugin 'visual_studio.vim'
 Plugin 'go.vim'
 
+"JSON
+Plugin 'tpope/vim-jdaddy'
+
 call vundle#end()
 filetype plugin indent on
 

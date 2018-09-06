@@ -20,6 +20,9 @@ Plugin 'rafi/awesome-vim-colorschemes'
 Bundle 'visual_studio.vim'
 Bundle 'go.vim'
 
+"JSON
+Bundle 'tpope/vim-jdaddy'
+
 filetype plugin indent on
 
 set expandtab
