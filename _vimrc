@@ -1,9 +1,7 @@
-source $VIM/_vimrc
-
 "Set up vundle
 filetype off
 set rtp+=c:/development/vimrc/bundle/vundle/
-call vundle#rc()
+call vundle#begin()
 
 "Let vundle manage itself
 Bundle 'gmarik/vundle'
@@ -22,6 +20,9 @@ Bundle 'go.vim'
 
 "JSON
 Bundle 'tpope/vim-jdaddy'
+
+" End of Vundle Setup
+call vundle#end()
 
 filetype plugin indent on
 
@@ -49,7 +50,7 @@ behave mswin
 
 
 "Set the colorscheme
-colorscheme atom
+colorscheme Atom
 
 "Move up and down one row on the screen instead of one line.
 :nmap j gj
