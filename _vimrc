@@ -21,6 +21,11 @@ Bundle 'go.vim'
 "JSON
 Bundle 'tpope/vim-jdaddy'
 
+" Markdown
+"   In order to use this, run ':call mkdp#util#install()' after running
+"   ':BundleInstall'
+Bundle 'iamcco/markdown-preview.nvim'
+
 " End of Vundle Setup
 call vundle#end()
 
