@@ -13,6 +13,7 @@ Plugin 'vim-scripts/peaksea'
 Plugin 'scrooloose/nerdtree'
 Plugin 'endel/vim-github-colorscheme'
 Plugin 'rafi/awesome-vim-colorschemes'
+Plugin 'cdelledonne/vim-cmake'
 
 "vim-scripts repos
 "Plugin 'visual_studio.vim'
