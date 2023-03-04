@@ -26,9 +26,9 @@ call vundle#end()
 filetype plugin indent on
 
 set expandtab
-set shiftwidth=8
-set softtabstop=8
-set tabstop=8
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
 set cindent
 set number
 
